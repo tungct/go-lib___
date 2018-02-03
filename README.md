@@ -143,12 +143,12 @@ Kết quả :
 ```
 Running 5s test @ http://127.0.0.1:8000/message
   10 goroutine(s) running concurrently
-73519 requests in 4.918175755s, 6.94MB read
-Requests/sec:		14948.43
-Transfer/sec:		1.41MB
-Avg Req Time:		668.966µs
-Fastest Request:	68.415µs
-Slowest Request:	17.429377ms
+86281 requests in 4.918361348s, 8.15MB read
+Requests/sec:		17542.63
+Transfer/sec:		1.66MB
+Avg Req Time:		570.039µs
+Fastest Request:	63.42µs
+Slowest Request:	21.826247ms
 Number of Errors:	0
 ```
 
@@ -157,12 +157,12 @@ Number of Errors:	0
 ```
 Running 5s test @ http://127.0.0.1:8000/message
   10 goroutine(s) running concurrently
-74734 requests in 4.91314332s, 7.06MB read
-Requests/sec:		15211.04
-Transfer/sec:		1.44MB
-Avg Req Time:		657.417µs
-Fastest Request:	63.04µs
-Slowest Request:	23.746093ms
+87194 requests in 4.920370263s, 8.23MB read
+Requests/sec:		17721.02
+Transfer/sec:		1.67MB
+Avg Req Time:		564.301µs
+Fastest Request:	61.499µs
+Slowest Request:	24.348407ms
 Number of Errors:	0
 ```
 
@@ -171,12 +171,12 @@ Number of Errors:	0
 ```
 Running 5s test @ http://127.0.0.1:8000/message
   10 goroutine(s) running concurrently
-74596 requests in 4.909753908s, 7.04MB read
-Requests/sec:		15193.43
-Transfer/sec:		1.43MB
-Avg Req Time:		658.179µs
-Fastest Request:	71.066µs
-Slowest Request:	23.027215ms
+87531 requests in 4.914277797s, 8.26MB read
+Requests/sec:		17811.57
+Transfer/sec:		1.68MB
+Avg Req Time:		561.432µs
+Fastest Request:	58.769µs
+Slowest Request:	18.407424ms
 Number of Errors:	0
 
 ```
@@ -186,11 +186,12 @@ Number of Errors:	0
 ```
 Running 5s test @ http://127.0.0.1:8000/message
   10 goroutine(s) running concurrently
-81842 requests in 4.916570977s, 7.73MB read
-Requests/sec:		16646.15
-Transfer/sec:		1.57MB
-Avg Req Time:		600.739µs
-Fastest Request:	69.846µs
-Slowest Request:	21.377187ms
+87047 requests in 4.922004624s, 8.22MB read
+Requests/sec:		17685.27
+Transfer/sec:		1.67MB
+Avg Req Time:		565.442µs
+Fastest Request:	66.411µs
+Slowest Request:	12.811064ms
 Number of Errors:	0
+
 ```
