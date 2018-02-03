@@ -4,11 +4,6 @@ Server nhận Request message (POST), đẩy message vào MessageQueue chờ x�
 
 ## 1. Yêu cầu
 - Go 1.9 hoặc thấp hơn, ubuntu 16.04
-- Thư viện cài đặt thêm :
-
-```bash
-go get github.com/gorilla/mux
-```
 
 ## 2. Hướng dẫn
 
