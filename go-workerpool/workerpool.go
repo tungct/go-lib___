@@ -8,7 +8,7 @@ import (
 	"github.com/tungct/go-messqueue"
 )
 
-var MaxLenWorker int = 10
+var MaxLenWorker int = 20
 // Worker pool
 var Worker chan(int)
 
