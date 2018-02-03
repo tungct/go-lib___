@@ -12,6 +12,8 @@ go get github.com/gorilla/mux
 
 ## 2. Hướng dẫn
 
+Cấu trúc MessageQueue và WorkerPool 
+
 ![architecture introduction diagram](image/msq.png)
 
 ### 2.1 Định nghĩa MessageQueue
