@@ -16,7 +16,6 @@ var Queue chan(Message)
 func PutMessage(message Message) {
 	if len(Queue) < MaxLenQueue{
 		Queue <- message
-		fmt.Println("Message : ", message)
 		fmt.Println("Lenght Queue : ", len(Queue))
 	}else {
 		fmt.Println("Full Queue")
