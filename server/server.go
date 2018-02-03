@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gorilla/mux"
-	"log"
+	//"github.com/gorilla/mux"
+	//"log"
 	"net/http"
 	"github.com/tungct/go-messqueue"
 	"encoding/json"
@@ -20,8 +20,6 @@ func RecMessage(rw http.ResponseWriter, request *http.Request) {
 		panic(err)
 	}
 	go_messqueue.PutMessage(message)
-
-	fmt.Println(message.Content)
 }
 
 
@@ -41,7 +39,6 @@ func main() {
 		}
 	}()
 	fmt.Println("Server run at port 8000")
-	router := mux.NewRouter()
-	router.HandleFunc("/message", RecMessage).Methods("POST")
-	log.Fatal(http.ListenAndServe(":8000", router))
+	http.HandleFunc("/message", RecMessage)
+	http.ListenAndServe(":8000", nil)
 }
